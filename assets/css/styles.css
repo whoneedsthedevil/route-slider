@@ -1,0 +1,46 @@
+body, html {
+	display: flex;
+	flex-flow: column nowrap;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	min-height: calc(100% - 100px);
+}
+.nouislider {
+	width: 600px;
+	margin: auto;
+	padding: 30px;
+	border: 2px solid #3eb099;
+}
+.nouislider .route-panel {
+	width: 60%;
+	margin: 5px auto;
+}
+.nouislider a {
+	color: #3bb4bc;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 10px 20px;
+	outline: none;
+}
+.nouislider input {
+	text-align: center;
+}
+.route-panel a:hover {
+	color: #f22121;
+}
+.main-title {
+	font: 600 5rem Tahoma;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.message h3 {
+	clear: both;
+	font-style: italic;
+	color: #c54245;
+}
+.message img {
+	width: 100%;
+}
